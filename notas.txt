@@ -39,3 +39,11 @@ git config --global user.name "User Name"
 3.  Se elimina de manera remota
      >git push origin --delete <nombre de la rama> 
 
+-Para integrar cambios (ramas)
+1. Entrar a la rama que se desea cambiar
+    -git checkout <nombre de la rama>
+2. Hacer fetch y pull para ver los cambios
+3. Entrar a la main y hacer otra vez el fetch y pull
+3. Agregar la rama
+   >git merge <nombredelarama>
+4. git push y se actualizan
