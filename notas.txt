@@ -1,0 +1,21 @@
+Comandos git
+
+Para saber la versión de git >> git --version
+Para clonar un repo (se crea una copia local) >> git clone <URL del repo>
+Conocer el status de sincro de la rama remota y local >> git status
+
+-Pasos para subir cambios
+1. Preparar (o hacer track) de los archivos que se quieren subir.
+      >git add "nombrearchivo" -- prepara los archivos que se quieren subir
+          **para hacer unstage del archivo se usa > git restore --staged "nombre archivo"
+      >git add . < Se agregan todos los archivos nuevos
+2. Crear un commit (conjunto de cambios con un mensaje que los describe)
+      >git commit -m "mensaje de los cambios"
+3. Hacer un push, así se sincroniza la rama remota con los cambios en la rama local
+      >git push
+
+******Para iniciar sesión y se pueda hacer commit****************************************
+git config --global user.email "email@example.com"
+git config --global user.name "User Name"
+********************************************************************************************
+
