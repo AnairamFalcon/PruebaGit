@@ -17,10 +17,12 @@ Conocer el status de sincro de la rama remota y local >> git status
 ******Para iniciar sesión y se pueda hacer commit****************************************
 git config --global user.email "email@example.com"
 git config --global user.name "User Name"
-********************************************************************************************
+*****************************************************************************************
 
 -Para descargar cambios desde la nube
 1. Actualizar el historial de commits
       >git fetch
 2. Se sincroniza la rama local con los cambios en la rama remota
       >git pull
+
+-Para la creación de ramas (subdivisiones de otra rama a partir de cierto punto)
