@@ -26,3 +26,16 @@ git config --global user.name "User Name"
       >git pull
 
 -Para la creación de ramas (subdivisiones de otra rama a partir de cierto punto)
+1. Se crea la rama nueva (de manera local)
+      >git checkout -b "nombre de rama"
+2. Se agrega de manera remota
+      >git push --set-upstream origin "nombre de rama"
+
+-Para borrar ramas
+1. Cambiarse a una rama diferente de la que se quiere borrar
+      >git checkout <nombre de rama a la que te quieres cambiar>
+2. Se elimina de manera local
+    >git branch -d <nombre de la rama>
+3.  Se elimina de manera remota
+     >git push origin --delete <nombre de la rama> 
+
