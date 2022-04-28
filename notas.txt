@@ -19,3 +19,8 @@ git config --global user.email "email@example.com"
 git config --global user.name "User Name"
 ********************************************************************************************
 
+-Para descargar cambios desde la nube
+1. Actualizar el historial de commits
+      >git fetch
+2. Se sincroniza la rama local con los cambios en la rama remota
+      >git pull
